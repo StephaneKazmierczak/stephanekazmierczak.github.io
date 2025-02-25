@@ -37,6 +37,6 @@ The site will be available at `http://localhost:4000`
 - `docker-compose.yml`: Docker configuration for local development
 
 ## Contact
-- LinkedIn: [Stephane Kazmierczak](Your LinkedIn URL)
+- LinkedIn: [Stephane Kazmierczak]()
 
 
