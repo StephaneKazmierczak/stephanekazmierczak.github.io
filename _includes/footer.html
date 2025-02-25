@@ -1,0 +1,24 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">
+            <svg class="svg-icon orange">
+              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+            </svg><span>Subscribe</span>
+          </a>
+          {% include social.html %}
+        </p>
+        {%- if site.description -%}
+          <p class="feed-subscribe">{{ site.description | escape }}</p>
+        {%- endif -%}
+      </div>
+      <div class="footer-col">
+        <p>{{ site.copyright }} | <a href="{{ site.license_url }}">{{ site.license }}</a> | <a href="{{ site.terms_url }}">{{ site.terms_text }}</a></p>
+      </div>
+    </div>
+  </div>
+</footer>

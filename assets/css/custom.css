@@ -1,0 +1,14 @@
+/* Increase specificity by using multiple selectors */
+.post .post-header .post-title,
+.page .post-header .post-title {
+    font-size: 28px !important;
+    letter-spacing: normal !important;
+    line-height: 1.2 !important;
+}
+
+@media screen and (max-width: 800px) {
+    .post .post-header .post-title,
+    .page .post-header .post-title {
+        font-size: 28px !important;
+    }
+}
